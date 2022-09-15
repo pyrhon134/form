@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E1FFEE;
+  border: solid 5px black;
+}
+
+.box {
+  background-color: rgb(189, 191, 55);
+  width: 30%;
+  border-radius: 10px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  border: solid 3px black;
+}
+
+.input {
+  padding: 10px 15px;
+  border: 4px solid white;
+  font-size: 20px;
+  outline: none;
+  border-radius: 10px;
+  background-color: white;
+}
+
+label {
+  font-size: 20Spx;
+  letter-spacing: 1.5px;
+  color: black;
+}
+
+.tableForm {
+  margin-top: 10px;
+}
+
+.btn {
+  background-color: rgb(29, 218, 19);
+  color: white;
+  padding: 10px 20px;
+  font-size: large;
+  font-weight: 600;
+  border-radius: 10px;
+  width: 370%;
+}
+
+input:invalid:focus {
+  border: 2px solid red;
+}
+
+.table {
+  border: 2px solid black;
+  margin: 40px auto;
+}
+
+.td,
+.th {
+  padding: 10px;
+  text-align: center;
+}
+
+.subHead {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.text_center {
+  color: black;
+}
